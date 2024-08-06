@@ -1,9 +1,9 @@
-
+import React, { useContext } from 'react';
 import './Welcome.css';
-// import { QuizContext } from '../QuizContext';
+import { QuizContext } from '../QuizContext';
 
 const Welcome = () => {
-    // const { setDifficulty } = useContext(QuizContext);
+    const { setDifficulty } = useContext(QuizContext);
   
     return (
       <div className="welcome-page">
