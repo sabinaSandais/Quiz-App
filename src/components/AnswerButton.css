@@ -1,0 +1,15 @@
+.answer-button {
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .answer-button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
