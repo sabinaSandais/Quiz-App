@@ -1,7 +1,7 @@
 .answer-buttons {
     display: flex;
     flex-direction: row; /* Stack buttons vertically */
-    gap: 20px; /* Add space between buttons */
+    gap: 2 0px; /* Add space between buttons */
   }
   
   .answer-buttons button {
