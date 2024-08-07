@@ -1,12 +1,12 @@
 .answer-buttons {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px; /* Add space between buttons */
+    flex-direction: row; /* Stack buttons vertically */
+    gap: 20px; /* Add space between buttons */
   }
   
   .answer-buttons button {
-    width: 100%; /* Make buttons full width of container */
-    padding: 10px;
+    width: 50%; /* Make buttons full width of container */
+    padding: 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
