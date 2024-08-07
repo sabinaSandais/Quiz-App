@@ -11,3 +11,4 @@ export const fetchQuestions = async (difficulty) => {
     
  }   
 }
+// https://opentdb.com/api.php?amount=10&difficulty=${difficulty}
