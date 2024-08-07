@@ -6,11 +6,8 @@ export const fetchQuestions = async (difficulty) => {
         return response.data.results
     
     } catch (error) {
-        console.error('Error fetching questions:)', error);
+        // console.error('Error fetching questions:)', error);
         throw error;
     
  }   
 }
-
-
-
